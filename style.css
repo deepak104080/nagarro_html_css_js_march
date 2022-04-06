@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Universal selector */
+
+p {
+    color: greenyellow;
+}
+
+#heading_6 {
+    font-size: 30px;
+}
+
+.heading_1 {
+    color: hotpink;
+    font-size: 50px;
+}
+
+/* media query */

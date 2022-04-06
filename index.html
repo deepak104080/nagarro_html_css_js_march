@@ -1,9 +1,16 @@
 <html>
     <head>
         <title>Nagarro HTML</title>
+        <meta name="viewport" content="width: device-width, initial-scale:1.0"/>
         <!-- meta tags
         linking of css files
         linking of js files -->
+        <!-- <style>
+            p {
+                color: blue;
+            }
+        </style> -->
+        <link href="style.css" rel="stylesheet"/>
     </head>
     <body>
 
@@ -33,15 +40,15 @@
             <input type="submit" value="Submit"/>
         </form>
         <br><br>
-        <p style="color: red;">This is a paragraph.</p> - element
-        <h1>heading</h1>
+        <p class="para_1" style="color: red;">This is a paragraph.</p>
+        <h1 class="heading_1">heading</h1>
         <h2>heading</h2>
         <h3>heading</h3>
         <h4>heading</h4>
         <h5>heading</h5>
-        <h6>heading</h6>
+        <h6 id="heading_6">heading</h6>
 
-        <img src="https://logos-world.net/wp-content/uploads/2022/01/Nagarro-Symbol.png" width="400" />
+        <img class="nagarro_logo" src="https://logos-world.net/wp-content/uploads/2022/01/Nagarro-Symbol.png" width="400" />
 
         <ol>
             <li>Car</li>
@@ -49,7 +56,7 @@
             <li>Train</li>
             <li>Flight</li>
         </ul>
-        <table border="1">
+        <table border="1" class="table">
             <thead>
                 <tr>
                     <th>Heading 1</th>
@@ -81,11 +88,26 @@
             </tbody>
         </table>
 
-
-        
     </body>
 </html>
 
 
 <!-- opening and closing
 self closing -->
+
+
+<!-- HTML - Hyper Text Markup Language
+CSS - Cascading Style Sheets
+
+inline css > same page css > external css -->
+
+<!-- selectors - id, class, tag -->
+
+<!-- id - unique selector - javascript
+class - repeating selector - css -->
+
+<!-- specificity rule - priority on basis of selectors
+specificty same - syntax at end will be final -->
+
+
+<!-- CSS Frameworks - bootstrap, foundation, materialui, semanticui -->
